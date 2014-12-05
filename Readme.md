@@ -1,0 +1,1 @@
+Site made to fit on a screen 485px wide
