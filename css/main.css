@@ -239,6 +239,12 @@ i:hover {
 	color: white;
 }
 
+.move-left {
+	display: inline-block;
+	position: absolute;
+	right: 99%;
+}
+
 /***** Bootstrap Grid *****/
 
 /* Buttons within images */
