@@ -206,7 +206,38 @@ body {
 	box-shadow: none;
 }
 
+/* Links */
+a {
+	text-decoration: none;
+	color: black;
+}
 
+/* Link hover Effects */
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/* Icons */
+i {
+	position: absolute;
+	top: 127px;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-size: 30px;
+}
+
+/* Icon hover Effects */
+
+i:hover {
+	color: white;
+}
 
 /***** Bootstrap Grid *****/
 
